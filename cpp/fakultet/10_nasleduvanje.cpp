@@ -35,7 +35,7 @@ public:
         cout << ime << " " << prezime << " " << godina_na_vrabotuvanje;
     }
 
-    virtual ~Vraboten() {} // мора да има дефиниција (тело) [web:148]
+    virtual ~Vraboten() {}
 };
 
 class Profesor : public Vraboten {
